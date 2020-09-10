@@ -3,3 +3,104 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.same-container{
+    padding:15px 100px;
+}
+
+/********Barra Log-in********/
+.header-bar{
+    width: 100%;
+    background-color: #F5F8FA;
+    border-bottom: 1px solid #cbd6e2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:0;
+}
+
+.hsg-nav-bar::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.hsg-nav-bar{
+    text-align: center;
+}
+
+.languages{
+    font-weight: normal;
+    color: #33575B;
+}
+
+.box-hsg-nav-bar-left{
+    float:left;
+    display: inline-block;
+    padding: 1.00rem 0;
+    padding-top: 1.50rem;
+    padding-right: 0px;
+    padding-bottom: 1.00rem;
+    padding-left: 0px;
+
+}
+
+.box-hsg-nav-bar-right{
+    float:right;
+}
+
+#search{
+    color: lightblue;
+}
+
+
+.botton-login{
+    background-color: #fff;
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.botton-login:hover{
+    background-color: #ffe8e2;
+    color: #ff7a59;
+}
+
+.botton-free{
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.botton-free:hover{
+    background-color: #ffe8e2;
+    color: #ff7a59;
+}
+
+
+
+/********Logo + Menu*********/
+
+/********Barra frase promozionale*********/
+
+/********Homepage content*********/
+
+/********Homepage start*********/
+
+/********Home community*********/
+
+/********Home costumers*********/
+
+/********Home promo*********/
+
+/********Footer*********/

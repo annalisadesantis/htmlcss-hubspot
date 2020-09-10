@@ -87,11 +87,82 @@ body{
     color: #ff7a59;
 }
 
-
-
 /********Logo + Menu*********/
+.header-menu{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #cbd6e2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:0;
+}
+
+.hsg-nav-menu::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.box-hsg-nav-menu-left{
+    float:left;
+}
+
+.box-hsg-nav-menu-right{
+    float: right;
+}
+
+#logo{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-img{
+    width: 100px;
+}
+
+.main-menu-list ul{
+    text-align: right;
+}
+
+.main-menu-list li{
+    display: inline-block;
+}
+
+.main-menu-list a{
+    color: #33575B;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 5px;
+}
+
+.main-menu-list a.menu-list-items::after{
+    content: "⇣";
+}
+
+.menu-list a:hover{
+    color: #33575B;
+}
 
 /********Barra frase promozionale*********/
+
+.header-promo{
+    background-color:#33575B;
+}
+
+.hsg-promo-bar{
+    color:white;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: normal;
+}
+
+.hsg-promo-bar-link{
+    color:white;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+
 
 /********Homepage content*********/
 

@@ -9,17 +9,25 @@ body{
 }
 
 .same-container{
-    padding:15px 100px;
+    padding: 15px 100px;
+}
+
+#wrapper{
+    padding-top: 106px;
 }
 
 /********Barra Log-in********/
+
 .header-bar{
     width: 100%;
     background-color: #F5F8FA;
     border-bottom: 1px solid #cbd6e2;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin:0;
+    position: fixed;
+    top:0;
+    left:0;
 }
 
 .hsg-nav-bar::after{
@@ -54,6 +62,7 @@ body{
 
 #search{
     color: grey;
+    padding-right: 10px;
 }
 
 
@@ -88,12 +97,13 @@ body{
 }
 
 /********Logo + Menu*********/
+
 .header-menu{
     width: 100%;
     background-color: white;
     border-bottom: 1px solid #cbd6e2;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin:0;
 }
 
@@ -112,7 +122,7 @@ body{
 }
 
 #logo{
-    padding: 0;
+    padding: 10px 0px;
     box-sizing: border-box;
 }
 
@@ -132,7 +142,7 @@ body{
     color: #33575B;
     height: 50px;
     line-height: 50px;
-    padding: 0 5px;
+    padding: 0 8px;
 }
 
 .menu-list a:hover{
@@ -147,20 +157,33 @@ body{
 
 .hsg-promo-bar{
     color:white;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
     font-weight: normal;
 }
 
 .hsg-promo-bar-link{
     color:white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
 }
 
 
-
 /********Homepage content*********/
+
+.homepage-content{
+    weight: 100%;
+    height: 566px;
+    padding-top: 150px;
+    background-color: #ffeaed;
+}
+.homepage-content-background{
+    background-image: url(https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+    height: 566px;
+    weight: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /********Homepage start*********/
 

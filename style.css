@@ -176,18 +176,13 @@ body{
     height: 566px;
     padding-top: 10px;
     background-color: #ffeaed;
-}
-.homepage-content-background{
     background-image: url(https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
-    height: 566px;
-    weight: 100vh;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .title-first-section{
     font-size: 50px;
-    background-color: #ffeaed;
 }
 
 .box-title-first-section::after{
@@ -199,7 +194,6 @@ body{
 .box-title-first-section{
     height: 120px;
     weight: 50px;
-    padding: 20px 700px 0 0;
 }
 
 .title-first-section{
@@ -241,6 +235,8 @@ body{
 }
 
 /********Homepage start*********/
+
+
 
 /********Home community*********/
 

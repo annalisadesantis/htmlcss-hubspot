@@ -22,8 +22,8 @@ body{
     width: 100%;
     background-color: #F5F8FA;
     border-bottom: 1px solid #cbd6e2;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     margin:0;
     position: fixed;
     top:0;
@@ -174,7 +174,7 @@ body{
 .homepage-content{
     weight: 100%;
     height: 566px;
-    padding-top: 150px;
+    padding-top: 10px;
     background-color: #ffeaed;
 }
 .homepage-content-background{
@@ -183,6 +183,61 @@ body{
     weight: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.title-first-section{
+    font-size: 50px;
+    background-color: #ffeaed;
+}
+
+.box-title-first-section::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.box-title-first-section{
+    height: 120px;
+    weight: 50px;
+    padding: 20px 700px 0 0;
+}
+
+.title-first-section{
+    float: left;
+    font-weight: bold;
+    color: #33575B;
+}
+
+.paragrafo-first-section{
+    letter-spacing: 2px;
+    color: #33575B;
+    line-height: 26px;
+    float: left;
+}
+
+.botton-free-due{
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    color: #fff;
+    padding: 30px;
+    margin: 5px 5px;
+    border-radius: 3px;
+    font-size: 20px;
+    float: left;
+}
+
+.botton-free-due:hover{
+    background-color: #ffbb8d;
+    color: white;
+}
+
+.final-first-section{
+    letter-spacing: 1px;
+    color: #33575B;
+    line-height: 20px;
+    font-size: 13px;
+    padding-right: 200px;
+    float: left;
 }
 
 /********Homepage start*********/

@@ -181,14 +181,14 @@ body{
     background-repeat: no-repeat;
 }
 
-.title-first-section{
-    font-size: 50px;
-}
-
 .box-title-first-section::after{
     content: "";
     display:table;
     clear:both;
+}
+
+.title-first-section{
+    font-size: 50px;
 }
 
 .box-title-first-section{
@@ -236,6 +236,120 @@ body{
 
 /********Homepage start*********/
 
+.home-growth-stack{
+    background-color: #F5F8FA;
+    padding-top: 80px;
+    display: inline-block;
+}
+
+.first-row-home-growth-stack::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.box-powerful{
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    border: 1px solid white;
+    padding: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.box-powerful-special{
+    height: 500px;
+    width: 350px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.title-second-section-special{
+    color: #33575B;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.paragrafo-second-section-special{
+    letter-spacing: 1px;
+    color: #33575B;
+    line-height: 26px;
+}
+
+#icon-second-section{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.main-title-second-section{
+    display: inline-block;
+    color: #33575B;
+    font-size: 15px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.paragrafo-second-section{
+    letter-spacing: 1px;
+    color: #33575B;
+    line-height: 20px;
+    height: 35%;
+}
+
+.line-second-section{
+    margin: 10px 0;
+    color: 	#F8F8F8;
+}
+
+.title-second-section{
+    text-transform: uppercase;
+    color: #33575B;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.box-list-items-second-section{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.list-items-second-section{
+    margin-top: 10px;
+}
+
+#check-circle{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.items-second-section{
+    color: #33575B;
+}
+
+.botton-getfreecrm{
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    color: #fff;
+    padding: 20px 30px;
+    margin: 15px 15px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.botton-getfreecrm:hover{
+    background-color: #ffe8e2;
+    color: #ff7a59;
+}
 
 
 /********Home community*********/

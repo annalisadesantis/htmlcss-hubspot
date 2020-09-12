@@ -121,12 +121,12 @@ body{
     float: right;
 }
 
-#logo{
+#logo-hsg{
     padding: 10px 0px;
     box-sizing: border-box;
 }
 
-.logo-img{
+.logo-img-hsg{
     width: 100px;
 }
 
@@ -187,10 +187,6 @@ body{
     clear:both;
 }
 
-.title-first-section{
-    font-size: 50px;
-}
-
 .box-title-first-section{
     height: 120px;
     weight: 50px;
@@ -200,6 +196,7 @@ body{
     float: left;
     font-weight: bold;
     color: #33575B;
+    font-size: 50px;
 }
 
 .paragrafo-first-section{
@@ -471,6 +468,151 @@ body{
 
 /********Home costumers*********/
 
+.home-customers{
+    width: 100%;
+    /* height: 500px; */
+    background-color: white;
+    padding-top: 2%;
+    margin:0;
+}
+
+.big-box-home-customers{
+    margin-top: 10%;
+}
+
+.big-box-home-customers::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.box-home-customers-left{
+    height: 10%;
+    width: 40%;
+    padding: 30px;
+    display: inline-block;
+    float: left;
+}
+
+.box-home-customers-right{
+    width: 60%;
+    padding: 0 30px;
+    display: inline-block;
+    float: right;
+}
+
+.title-home-customers{
+    float: left;
+    font-weight: bold;
+    color: #33575B;
+    font-size: 45px;
+    padding-right: 300px;
+    margin-bottom: 10px;
+}
+
+.paragrafo-home-customers{
+    letter-spacing: 2px;
+    color: #33575B;
+    line-height: 26px;
+}
+
+#logo-home-customers{
+    padding: 20px;
+    float: right;
+    box-sizing: content-box;
+}
+
+.img-logo-customers{
+    max-height: 100%;
+    width: 100px;
+}
+
+#logo-home-customers-subaru{
+    text-align: center;
+    padding: 0 20px;
+    float: right;
+    box-sizing: content-box;
+}
+
+#logo-home-customers-atlassian{
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    float: right;
+    box-sizing: content-box;
+}
+
+
 /********Home promo*********/
+
+.home-promo{
+    weight: 100%;
+    /* height: 566px; */
+    padding: 8% 0;
+    background-color: white;
+}
+
+.big-box-home-promo::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.home-promo-left{
+    float: left;
+}
+
+.home-promo-right{
+    float: right;
+}
+
+.box-title-home-promo{
+    /* height: 120px; */
+    weight: 50px;
+}
+
+.title-home-promo{
+    color: #33575B;
+    font-size: 35px;
+    padding: 30px 0 30px 30px;
+    float: left;
+}
+
+.paragrafo-home-promo{
+    letter-spacing: 2px;
+    color: #33575B;
+    line-height: 26px;
+    float: left;
+    padding-left: 30px;
+}
+
+.botton-free-tre{
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    color: #fff;
+    margin: 30px;
+    border-radius: 3px;
+    font-size: 20px;
+    float: left;
+    padding: 30px;
+}
+
+.botton-free-tre:hover{
+    background-color: #ffbb8d;
+    color: white;
+}
+
+.final-home-promo{
+    letter-spacing: 1px;
+    color: #33575B;
+    line-height: 20px;
+    font-size: 13px;
+    padding-left: 30px;
+    float: left;
+}
+
+.img-girl-hubspot{
+    weight:10px;
+    height: 450px;
+}
 
 /********Footer*********/

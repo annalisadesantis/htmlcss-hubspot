@@ -622,6 +622,7 @@ body{
     background-color: #33475b;
     weight: 100%;
     /* height: 800px; */
+    position: relative;
 }
 
 .big-box-hsg-footer::after{
@@ -797,8 +798,53 @@ body{
     margin-right: 20px;
     text-align: center;
     font-weight: bold;
+
 }
 
 .privacy-footer a.privacy-items:hover{
     color: #0091ae;
+}
+
+.icon-chat-footer{
+    font-size: 30px;
+    padding: 15px;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(66, 91, 118);
+    cursor: pointer;
+}
+
+.box-paragrafo-chat-footer{
+    position: fixed;
+    right: 2%;
+    bottom: 15%;
+    left: 80%;
+    background-color: #F0FFF0;
+    box-sizing: border-box;
+    height: 100px;
+    weight: 100px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: 2px solid white;
+}
+
+.icon-robot-footer{
+    position: fixed;
+    right: 130px;
+    bottom: 28%;
+    width: 40px;
+}
+
+#x-icon-footer{
+    color: lightgrey;
+    padding-left: 200px;
+}
+
+paragrafo-chat-footer{
+    color: #CBD6E2;
 }

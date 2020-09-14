@@ -838,7 +838,6 @@ body{
     margin-right: 20px;
     text-align: center;
     font-weight: bold;
-
 }
 
 .privacy-footer a.privacy-items:hover{
@@ -885,6 +884,7 @@ body{
     padding-left: 200px;
 }
 
-paragrafo-chat-footer{
-    color: #CBD6E2;
+.paragrafo-chat-footer{
+    color: #33475b;
+    line-height: 20px;
 }

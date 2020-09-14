@@ -43,6 +43,46 @@ body{
 .languages{
     font-weight: normal;
     color: #33575B;
+    margin-left: 10px;
+}
+
+.languages-special{
+    font-weight: normal;
+    color: #33575B;
+    cursor: pointer;
+}
+
+.box-dropdown-menu{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid #cbd6e2;
+    border-radius: 3px;
+}
+
+.dropdown-menu li{
+    color: #33575B;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown-menu li:hover{
+    background-color: #CBD6E2;
+}
+
+.box-dropdown-menu:hover .dropdown-menu{
+    display: block;
 }
 
 .box-hsg-nav-bar-left{

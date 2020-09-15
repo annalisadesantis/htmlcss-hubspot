@@ -9,7 +9,9 @@ body{
 }
 
 .same-container{
-    padding: 15px 100px;
+    padding: 15px 70px ;
+    max-width: 1300px;
+    margin: auto;
 }
 
 #wrapper{
@@ -279,6 +281,7 @@ body{
     background-color: #F5F8FA;
     padding-top: 80px;
     display: inline-block;
+    width: 100%;
 }
 
 .first-row-home-growth-stack::after{
@@ -872,10 +875,13 @@ body{
     border: 2px solid white;
 }
 
-.icon-robot-footer{
+.box-icon-robot-footer{
     position: fixed;
-    right: 130px;
-    bottom: 28%;
+    right: 10%;
+    bottom: 26%;
+}
+
+.icon-robot-footer{
     width: 40px;
 }
 
